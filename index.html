@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Search Git User</title>
+    <link rel="stylesheet" href="user.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter|Hind"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Just+Another+Hand"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--  PAGE 1 -->
+    <div class="container">
+      <div class="rightColumn">
+        <h2>Git User Directory</h2>
+        Search Github Users by their username and get their profile brief.
+        <div class="searchBar">
+          Enter Username
+          <input type=" text" placeholder="Search Username" id="username" />
+          <input type="submit" value="Search" id="searchBtn" />
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 2 -->
+    <div class="container">
+      <div class="rightColumn">
+        <div id="errorMsg"></div>
+        <input type="submit" value="Try Again" id="tryAgain" />
+        <div id="userInfo">
+          <img id="avatar" />
+          <div id="name"></div>
+          <div id="bio"></div>
+          <div id="repos"></div>
+          <div id="followers"></div>
+          <div id="following"></div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="user.js"></script>
+  </body>
+</html>
