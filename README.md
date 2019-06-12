@@ -9,3 +9,5 @@ I have used Github users API to fetch user data and ES6 async await in place of 
 The main purpose of this project is to learn Error handling while developing a WebApp. 
 
 It takes care of all the errors that might arise in case the API call fails, or if the returned data is malformed.
+
+![github](https://user-images.githubusercontent.com/46417627/59345045-edd8da00-8d2c-11e9-959b-eeebd5ac412a.png)
